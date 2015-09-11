@@ -1,0 +1,21 @@
+.indent{
+   position: relative;
+   margin-left:120px;
+}
+
+.graphic-dropcap{
+    position: absolute;
+    left: -120px;
+    top: 0px;
+    width: 120px;
+    height: 90px;
+}
+
+.graphic-dropcap span{
+    background: url("m.jpg") no-repeat;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 120px;
+    height: 90px;
+}

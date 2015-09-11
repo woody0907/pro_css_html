@@ -1,0 +1,11 @@
+.left-marginal{
+   position: relative;
+   margin-left: 200px;
+}
+
+.marginal-heading{
+    position: absolute;
+    left: -200px;
+    top: 0px;
+    margin: 0px;
+}

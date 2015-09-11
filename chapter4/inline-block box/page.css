@@ -1,0 +1,50 @@
+
+
+*.container{
+    border: 1px solid gray;
+}
+
+*.default{
+    line-height: normal;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    visibility: visible;
+    margin: 0;
+    padding: 0;
+    background-color: gold;
+}
+
+*.replaced-box{
+    display: inline-block;
+    width: 51px;
+    height: 52px;
+    overflow: hidden;
+    visibility: visible;
+    margin: 10px 100px;
+    padding: 10px 120px;
+
+    border-top:5px solid gray;
+    border-bottom:5px solid black;
+    border-left:5px solid gray;
+    border-right:5px solid gray;
+
+    background-color: gold;
+}
+
+*.inline-box{
+    display: inline-block;
+    width: 275px;
+    height: auto;
+    overflow: visible;
+    visibility: visible;
+    margin: 10px 100px;
+    padding: 10px 12px;
+
+    border-top:5px solid gray;
+    border-bottom:5px solid black;
+    border-left:5px solid gray;
+    border-right:5px solid gray;
+
+    background-color: gold;
+}

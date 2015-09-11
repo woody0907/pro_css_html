@@ -1,0 +1,24 @@
+p,ol,li,table{
+    display: inline;
+}
+
+strong{
+    display:inline-block;
+}
+
+em{
+    display: block;
+}
+
+dfn{
+    display: list-item;
+    list-style-type: square;
+}
+
+img{
+    display:none;
+}
+
+*.ul{
+    padding-left: 15px;
+}

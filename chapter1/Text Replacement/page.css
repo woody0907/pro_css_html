@@ -1,0 +1,15 @@
+#h2{
+   position: relative;
+   width: 250px;
+   height: 76px;
+   overflow: hidden;
+}
+
+#h2 span{
+    background: url("heading2.jpg") no-repeat;
+    position: absolute;
+    width: 250px;
+    height: 76px;
+    left: 0px;
+    top: 0px;
+}
