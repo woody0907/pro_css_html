@@ -1,0 +1,56 @@
+*.box{
+    position: absolute;
+    overflow: auto;
+    visibility:visible;
+    width: 220px;
+    height: 100px;
+    margin:10px;
+    padding:10px;
+    z-index: auto;
+    left: 0;
+    top: 0;
+    right: auto;
+    bottom: auto;
+
+    border-top:5px solid gray;
+    border-bottom:5px solid black;
+    border-left:5px solid gray;
+    border-right:5px solid gray;
+    background-color: gold;
+}
+
+*.container{
+    position: relative;
+    border: 1px solid gray;
+    text-align: center;
+}
+
+*.default{
+    position: static;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    visibility: visible;
+    margin: 0;
+    padding: 0;
+    border:none;
+    background-color: gold;
+}
+
+*.before{
+    width: 100px;
+    height: auto;
+    left: 400px;
+    right: auto;
+    top: 100px;
+    bottom: auto;
+}
+*.after{
+    overflow: visible;
+    width: 100px;
+    height: auto;
+    left: 10px;
+    right: 0px;
+    top: 150px;
+    bottom: auto;
+}

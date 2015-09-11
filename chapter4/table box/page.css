@@ -1,0 +1,50 @@
+*.table{
+    border-collapse: separate;
+    table-layout:fixed;
+    visibility:visible;
+    width: auto;
+    height: auto;
+    margin-left:50px;
+    margin-right:50px;
+    margin-right:50px;
+    margin-top:30px;
+    margin-bottom:30px;
+
+    border-top:5px solid gray;
+    border-bottom:5px solid black;
+    border-left:5px solid gray;
+    border-right:5px solid gray;
+    background-color: wheat;
+}
+
+*.cell{
+    width: auto;
+    height: auto;
+    visibility: visible;
+    overflow: hidden;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    border-top:5px solid gray;
+    border-bottom:5px solid black;
+    border-left:5px solid gray;
+    border-right:5px solid gray;
+    background-color: gold;
+}
+
+*.container{
+    border: 1px solid gray;
+    text-align: center;
+}
+
+*.default{
+    width: auto;
+    height: auto;
+    overflow: visible;
+    visibility: visible;
+    margin: 0;
+    padding: 0;
+    background-color: gold;
+}
